@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Adresar SYSTEM "Adresar.dtd">
+<!--Ognjen Čalija NRT-63/16-->
+
+<Adresar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="Adresar.xsd">
+  <!--Prva Osoba-->
+  <Osoba id="o1">
+    <PunoIme>
+      <Ime>Stefan</Ime>
+      <Prezime>Svetozarevic</Prezime>
+    </PunoIme>
+    <DatumRodjenja>
+      <Dan>31</Dan>
+      <Mesec>3</Mesec>
+      <Godina>1992</Godina>
+    </DatumRodjenja>
+    <Adresa type="privremena">
+      <Ulica>Vojvode Stepe</Ulica>
+      <Broj>22</Broj>
+      <Grad>Beograd</Grad>
+      <Drzava>Srbija</Drzava>
+    </Adresa>
+    <Telefon type="mobilni">062/234-424</Telefon>
+    <Email type="privatni">safsafsag@gmail.com</Email>
+  </Osoba>
+  <!--Druga Osoba-->
+  <Osoba id="o2">
+    <PunoIme>
+      <Ime>Marko</Ime>
+      <SrednjeIme>Nikola</SrednjeIme>
+      <Prezime>Markovic</Prezime>
+      <Prezime>Stefanovic</Prezime>
+    </PunoIme>
+    <DatumRodjenja>
+      <Dan>23</Dan>
+      <Mesec>4</Mesec>
+      <Godina>2001</Godina>
+    </DatumRodjenja>
+    <Adresa type="stalna">
+      <Ulica>Vojislava Ilica</Ulica>
+      <Broj>32</Broj>
+      <Grad>Beograd</Grad>
+    </Adresa>
+    <Telefon type="fiksni">011/423-254</Telefon> 
+    <Email type="privatni">nikolamarko@gmail.com</Email>
+    <Email type="sluzbeni">markonikola@gmail.com</Email>
+    <Email type="privatni">asfas213@gmail.com</Email>
+  </Osoba>
+  <!--Treca Osoba-->
+  <Osoba id="o3">
+    <PunoIme>
+      <Ime>Slobodan</Ime>
+      <Prezime>Slobodanovic</Prezime>
+    </PunoIme>
+    <DatumRodjenja>
+      <Dan>31</Dan>
+      <Mesec>7</Mesec>
+      <Godina>1996</Godina>
+    </DatumRodjenja>
+    <Adresa type="privremena">
+      <Ulica>Raska Petrovica</Ulica>
+      <Broj>36</Broj>
+      <Grad>Beograd</Grad>
+    </Adresa>
+    <Telefon type="mobilni">064/532-533</Telefon>
+    <Email type="privatni">slobadansloba@gmail.com</Email>
+  </Osoba>
+  <!--Prva Kompanija-->
+  <Kompanija id="k1">
+    <Naziv>Ikea</Naziv>
+    <Adresa type="privremena">
+      <Ulica>Nusiceva</Ulica>
+      <Broj>23</Broj>
+      <Grad>Beograd</Grad>
+      <Drzava>Srbija</Drzava>
+    </Adresa>
+    <Telefon type="mobilni">064/234-522</Telefon>
+    <Email type="privatni">ikea@gmailcom</Email>
+  </Kompanija>
+  <!--Druga Kompanija-->
+  <Kompanija id="k2">
+    <Naziv>Lidl</Naziv>
+    <Adresa type="stalna">
+      <Ulica>Grcica Milenka</Ulica>
+      <Broj>35</Broj>
+      <Grad>Beograd</Grad>
+    </Adresa>
+    <Telefon type="fiksni">011/423-423</Telefon>
+    <Email type="privatni">lidl@gmail.com</Email>
+    <Email type="sluzbeni">lidl11@gmail.com</Email>
+    <Email type="privatni">lidl332@gmail.com</Email>
+  </Kompanija>
+  <!--Treca Kompanija-->
+  <Kompanija id="k3">
+    <Naziv>Maximus</Naziv>
+    <Adresa type="stalna">
+      <Ulica>Marka Markovica</Ulica>
+      <Broj>221</Broj>
+      <Grad>Beograd</Grad>
+    </Adresa>
+    <Telefon type="mobilni">062/421-423</Telefon>
+    <Email type="privatni">maxi@gmail.com</Email>
+  </Kompanija>
+
+</Adresar>
