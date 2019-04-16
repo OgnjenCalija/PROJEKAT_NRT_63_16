@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE Adresar SYSTEM "Adresar.dtd">
 <!--Ognjen Čalija NRT-63/16-->
-
+<!--test izmena-->
 <Adresar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:noNamespaceSchemaLocation="Adresar.xsd">
   <!--Prva Osoba-->
   <Osoba id="o1">
     <PunoIme>
-      <Ime>Stefan</Ime>
+      <Ime>Stefan1</Ime>
       <Prezime>Svetozarevic</Prezime>
     </PunoIme>
     <DatumRodjenja>
